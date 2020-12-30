@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
                 Toast.makeText(MainActivity.this, "Toast", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Este es otro", Toast.LENGTH_SHORT).show();
             }
         });
     }
